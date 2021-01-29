@@ -1,28 +1,41 @@
+
+
 body{
     font-family: 'Spartan', sans-serif;
+    background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
+      
+    background-position: right bottom, left top;
+  	background-repeat: no-repeat, no-repeat;
+      background-size: 80%, 40%;
+      padding: 8% 10%;
 }
 .gr{
-    width: 81%;
+    width: 102%;
     height: 500px;
     margin : 0 auto; 
-    background-image: url(/images/bg-pattern-bottom-desktop.svg);
-    background-image: url(/images/bg-pattern-top-desktop.svg);
+   
 }
 
 .haut{
 display: flex;
 flex-direction: row;
-width: 100%;
-height: 50%;
+
  }
+
+ .abc{
+    padding-right: 4px;
+    padding-left: 50px;
+ }
+
  .etoiles{
-    width: 50%;
+    width: 72%;
      height: auto;
      margin: auto ;
  }
  .star{
      width: 15px;
      height: 15px;
+     padding-right: 4px;
      
  }
  .tittle{
@@ -31,7 +44,8 @@ height: 50%;
      margin-left: 2%;
  }
  .rating{
-     width: 60%;
+    
+    width: 76%;
      background-color: rgb(199, 194, 194);
      display: flex;
      flex-direction:row;
@@ -42,11 +56,13 @@ height: 50%;
      margin : 20px auto;
      text-align: left 29px ;
      border-radius: 8px;
+     
  }
  .review{
      margin-left: 18px;
      color: rgb(58, 9, 104);
      font-weight: 700;
+     font-size: 1.2vw;
  }
  #r1{
      margin-left: 20px;
@@ -94,7 +110,7 @@ height: 50%;
     border-radius: 10px;
     margin-bottom: 23px;
     margin-top: 60px ;
-    margin-right: 4%;
+    margin-right: 1%;
  }
  .img1{
     border-radius: 50%;
@@ -123,7 +139,60 @@ color: rgb(255, 172, 255);
     text-align: left;
     font-size: 12px;
 
-}    
-    
+}
 
- 
+@media only screen and (max-width: 700px) {
+    .tittle {
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .haut {
+        display: flex;
+        flex-direction: column;
+    }
+    .divB {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #r1,#r2,#r3{
+    margin-left: 0px; 
+    flex-direction: column;
+    margin-left: -9%;
+    margin-right: -10%;
+    border-radius: 10px;
+    padding: 5px;
+    width: 115%;
+    height: 68PX;
+
+    }
+   
+
+    .etoiles{
+        width: 100%
+        
+    }
+    .div1,.div2,.div3{
+        height: 170px;
+        margin-left: -9%;
+       display: flex;
+       background-color: rgb(73, 0, 55);
+       margin-right: -10%;
+       border-radius: 10px;
+       padding: 5px;
+       margin-top: 20px;
+    }
+    .div2{
+        margin-bottom: 0px;
+    }
+    .review{
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .abc{
+        margin-top: 8px;
+        padding-right: 50px;
+    }
+}
