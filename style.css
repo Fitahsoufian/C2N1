@@ -1,0 +1,129 @@
+body{
+    font-family: 'Spartan', sans-serif;
+}
+.gr{
+    width: 81%;
+    height: 500px;
+    margin : 0 auto; 
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+}
+
+.haut{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50%;
+ }
+ .etoiles{
+    width: 50%;
+     height: auto;
+     margin: auto ;
+ }
+ .star{
+     width: 15px;
+     height: 15px;
+     
+ }
+ .tittle{
+     width: 50%;
+     height: auto;
+     margin-left: 2%;
+ }
+ .rating{
+     width: 60%;
+     background-color: rgb(199, 194, 194);
+     display: flex;
+     flex-direction:row;
+     flex-wrap: nowrap;
+     align-items: center;
+     padding-left: 25px;
+     padding-right: 50px;
+     margin : 20px auto;
+     text-align: left 29px ;
+     border-radius: 8px;
+ }
+ .review{
+     margin-left: 18px;
+     color: rgb(58, 9, 104);
+     font-weight: 700;
+ }
+ #r1{
+     margin-left: 20px;
+ }
+ #r2{
+    margin-left: 40px;
+}
+#r3{
+    margin-left: 60px;
+}
+.color{
+    color: rgb(121, 5, 121);
+}
+.colorg{
+    color: rgb(173, 166, 166);
+}
+.divB{
+    display: flex;
+    margin: auto;
+}
+.div1{
+    height: 200px;
+    margin-left: 2%;
+   display: flex;
+   background-color: rgb(73, 0, 55);
+   margin-right: 2%;
+   border-radius: 10px;
+   padding: 5px;
+   margin-top: 20px;
+}
+.div2{
+    height: 200px;
+    display: flex;
+    background-color: rgb(73, 0, 55);
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 33px;
+ }
+ .div3{
+     display: flex;
+    background-color: rgb(73, 0, 55);
+    margin-right: 2%;
+    border-radius: 10px;
+    margin-bottom: 23px;
+    margin-top: 60px ;
+    margin-right: 4%;
+ }
+ .img1{
+    border-radius: 50%;
+    position: relative;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+
+ }
+ .org{
+     display: flex;
+     flex-direction: column;
+ }
+ .vr{
+margin-top: -16px;
+margin-left: 10px;
+color: rgb(255, 172, 255);
+ }
+ .name{
+     margin-left: 10px;
+     color: white;
+ }
+.TC{
+    color: white;
+    text-align: left;
+    font-size: 12px;
+
+}    
+    
+
+ 
