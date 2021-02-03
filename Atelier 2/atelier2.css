@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(bg-desktop.png);
+    background-image: url(/images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position:center bottom ;
     background-size: 100% 50%;
@@ -102,12 +102,12 @@ body {
     
   }
   .GB{
-    margin-right:450px ;
+    margin-right: 340px;
     margin-bottom: 26px;
     color: white;
   }
   .TB{
-    margin-left: 450px;
+    margin-left: 308px;
     margin-top: -46PX;
     color: white;
   }
@@ -116,8 +116,8 @@ body {
     width: 180px;
     height: 70px;
     background-color: white;
-    margin-bottom: 85px;
-    margin-left: 750px;
+    margin-bottom: 106px;
+    margin-left: 460px;
     border-radius: 10px;
   }
   .tri{
@@ -141,13 +141,14 @@ body {
   .color{
     color: rgb(197, 194, 194);
   }
-  @media (max-width:376px){
+  @media (max-width:600px){
     .container{
-    background-image: url(/bg-mobile.png);
-    background-size:100% 100%;
-    width: 90%;
-    background-color:rgb(30, 8, 59);
-    display: block;
+      background-image: url(/images/bg-mobile.png);
+      background-size: 100% 100%;
+      width: 142%;
+      background-color: rgb(30, 8, 59);
+      display: block;
+      padding-top: 12rem;
     }
     .icons{
     display: flex;
@@ -212,7 +213,7 @@ body {
           height: 70px;
           background-color: white;
           border-radius: 10px;
-          margin-left: 73px;
+          margin-left: 158px;
           margin-top: -16px;
         }
         .tri{
@@ -223,8 +224,11 @@ body {
           margin-top: -18px;
         }
         .GB{
-          margin-left: 239px;
+          margin-left: 0px;
           color: white;
+        }
+        .TB{
+          margin-right: 10px;
         }
   }
 
